@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Authors>Sase</Authors>
+		<Company>Stil Soft</Company>
+		<Copyright>Copyright © 2021 Stil Soft</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/StilSoft/PublicLibraries</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/StilSoft/PublicLibraries</RepositoryUrl>
+	</PropertyGroup>
+
+</Project>
