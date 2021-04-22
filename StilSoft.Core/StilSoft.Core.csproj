@@ -5,8 +5,9 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Version>1.0.1</Version>
-		<Authors>Sase</Authors>
+		<Authors>Aleksandar Angeleski</Authors>
 		<Company>Stil Soft</Company>
+		<Description>Core</Description>
 		<Copyright>Copyright © 2021 Stil Soft</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/StilSoft/StilSoft.Core</PackageProjectUrl>
