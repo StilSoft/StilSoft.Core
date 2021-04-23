@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace StilSoft.Core.Extensions
+namespace StilSoft.Extensions
 {
     public static class StringExtensions
     {

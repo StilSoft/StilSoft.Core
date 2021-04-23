@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StilSoft.Core
+namespace StilSoft
 {
     /// <summary>The Range class.</summary>
     /// <typeparam name="T">Generic parameter.</typeparam>

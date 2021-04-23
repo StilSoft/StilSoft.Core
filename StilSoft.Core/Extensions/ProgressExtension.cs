@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StilSoft.Core.Extensions
+namespace StilSoft.Extensions
 {
     public static class ProgressExtension
     {

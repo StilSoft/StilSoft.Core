@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StilSoft.Core.Exceptions
+namespace StilSoft.Exceptions
 {
     public class DependencyException : Exception
     {

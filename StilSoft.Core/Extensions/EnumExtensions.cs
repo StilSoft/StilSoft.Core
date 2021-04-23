@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Reflection;
 
-namespace StilSoft.Core.Extensions
+namespace StilSoft.Extensions
 {
     public static class EnumExtensions
     {

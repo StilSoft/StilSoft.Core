@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Runtime.InteropServices;
 
-namespace StilSoft.Core.Extensions
+namespace StilSoft.Extensions
 {
     public static class ByteArrayExtension
     {

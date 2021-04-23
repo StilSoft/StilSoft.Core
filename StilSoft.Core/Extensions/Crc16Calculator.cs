@@ -1,4 +1,4 @@
-﻿namespace StilSoft.Core.Extensions
+﻿namespace StilSoft.Extensions
 {
     internal static class Crc16Calculator
     {

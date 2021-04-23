@@ -1,4 +1,4 @@
-﻿namespace StilSoft.Core
+﻿namespace StilSoft
 {
     public class ProgressInfo
     {

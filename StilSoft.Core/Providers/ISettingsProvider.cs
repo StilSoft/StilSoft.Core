@@ -1,4 +1,4 @@
-﻿namespace StilSoft.Core.Providers
+﻿namespace StilSoft.Providers
 {
     public interface ISettingsProvider<out T>
     {
