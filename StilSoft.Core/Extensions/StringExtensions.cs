@@ -16,6 +16,11 @@ namespace StilSoft.Extensions
 
         public static byte[] HexStringToByteArray(this string hexString)
         {
+            if (hexString.Length == 0)
+            {
+                return new byte[0];
+            }
+            
             if (hexString.Length % 2 != 0)
             {
                 throw new ArgumentException($"The hex string cannot have an odd number of digits: {hexString}");
