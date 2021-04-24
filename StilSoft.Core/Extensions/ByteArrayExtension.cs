@@ -76,7 +76,7 @@ namespace StilSoft.Extensions
             return array1.SequenceEqual(array2);
         }
 
-        public static bool Compare(byte[] array1, int array1StartIndex, byte[] array2, int array2StartIndex, int length)
+        public static bool Compare(this byte[] array1, int array1StartIndex, byte[] array2, int array2StartIndex, int length)
         {
             if (array1StartIndex >= array1.Length || array2StartIndex >= array2.Length)
             {
