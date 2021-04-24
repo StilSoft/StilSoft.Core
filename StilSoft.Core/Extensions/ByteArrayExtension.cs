@@ -137,6 +137,11 @@ namespace StilSoft.Extensions
             return result;
         }
 
+        public static string ToHexString(this byte[] data, string delimiter = "")
+        {
+            return BitConverter.ToString(data).Replace("-", delimiter);
+        }
+
         public static ushort CalculateCrc16(this byte[] array, ushort polynomial = DefaultCrcPolynomial)
         {
             return Crc16Calculator.ComputeChecksum(array, polynomial);
