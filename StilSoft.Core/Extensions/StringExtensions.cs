@@ -28,7 +28,7 @@ namespace StilSoft.Extensions
 
             string hexStringTemp = Regex.Replace(hexString, @"[^\u0030-\u0039\u0041-\u005A\u0061-\u007A]", "?");
 
-            if (!hexStringTemp.Contains("?"))
+            if (hexStringTemp.Contains("?"))
             {
                 throw new ArgumentException("The string is not in hex format");
             }
