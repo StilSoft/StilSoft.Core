@@ -11,7 +11,7 @@ namespace StilSoft.Extensions
         {
             const string hx = "0123456789ABCDEF";
 
-            return value.ToUpper().All(c => hx.Contains(c));
+            return !string.IsNullOrWhiteSpace(value) && value.ToUpper().All(c => hx.Contains(c));
         }
 
         public static byte[] HexStringToByteArray(this string hexString)
